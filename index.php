@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set("Etc/GMT+12");
 $time = date('H') . ':' . date('i');
 
 if (date('H') >= 06 && date('H') <= 12) {
